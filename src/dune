@@ -1,0 +1,6 @@
+(library
+ (name app)
+ (modes melange)
+ (libraries components other_domain reason-react)
+ (preprocess
+  (pps melange.ppx reason-react-ppx)))

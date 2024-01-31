@@ -1,0 +1,3 @@
+(library
+ (name other_domain)
+ (modes melange))
